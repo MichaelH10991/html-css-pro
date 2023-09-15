@@ -1,0 +1,71 @@
+p {
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+}
+
+.inbox-container {
+  width: 400px;
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 2px;
+  padding: 10px 15px 15px 15px;
+}
+
+.inbox-header {
+  margin-bottom: 20px;
+}
+
+.inbox-header-text {
+  color: grey;
+  font-size: 14px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: lightgray;
+  padding-bottom: 7px;
+}
+
+.message-left {
+  margin-right: 5px;
+}
+
+.cat-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+  object-fit: cover;
+}
+
+.message-right {
+  flex: 1;
+}
+
+.message-heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-title {
+  font-weight: 700;
+}
+
+.message-timestamp {
+  color: grey;
+  font-size: 14px;
+}
+
+.message-subheading {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.message-content {
+  color: grey;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
